@@ -4,6 +4,6 @@ Repository for BSIT 4-M course activities.
 
 **Name:** Marieviella Rincoraya
 
-**Course and Section:** BSIT 3-M
+**Course and Section:** BSIT 4-M
 
 **Description:** This repository contains my activities and projects for this course.
