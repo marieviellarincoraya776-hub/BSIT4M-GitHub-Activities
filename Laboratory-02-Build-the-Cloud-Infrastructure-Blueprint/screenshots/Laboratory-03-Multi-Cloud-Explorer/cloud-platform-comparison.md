@@ -77,6 +77,7 @@ The following decision matrix matches common business requirements with the clou
 | Microsoft Environment   | Microsoft Azure      | Azure provides strong integration with Windows Server, Microsoft 365, Microsoft Entra ID, and other Microsoft technologies.         |
 | AI / Machine Learning   | Google Cloud         | Google Cloud provides strong AI and machine learning services, specialized computing resources, and data platforms.                 |
 | Kubernetes Deployment   | Google Cloud         | Google Kubernetes Engine (GKE) provides a managed Kubernetes environment for deploying and managing containerized applications.     |
+
 | Global Web Application  | AWS                  | AWS provides global infrastructure, multiple Availability Zones, load balancing, content delivery, and scalable computing services. |
 
 ## Decision-Making Principle
