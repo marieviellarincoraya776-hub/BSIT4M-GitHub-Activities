@@ -29,3 +29,37 @@ Google Cloud is a strong choice for Artificial Intelligence, Machine Learning, a
 ### 4. Which cloud platform would you personally choose and why?
 
 I would personally choose Microsoft Azure because it provides a broad selection of cloud services while offering strong integration with Microsoft technologies. I also consider its support for enterprise and hybrid environments useful for organizations that already use Windows Server and Microsoft 365.
+
+# Equivalent Cloud Services
+
+The following table matches commonly used cloud services from AWS, Microsoft Azure, and Google Cloud Platform. Although the services provide similar functions, their features, pricing models, management tools, and specific capabilities may differ.
+
+| Service Category    | AWS        | Azure                          | GCP                            |
+| ------------------- | ---------- | ------------------------------ | ------------------------------ |
+| Virtual Machine     | Amazon EC2 | Azure Virtual Machines         | Compute Engine                 |
+| Object Storage      | Amazon S3  | Azure Blob Storage             | Cloud Storage                  |
+| Identity Management | AWS IAM    | Microsoft Entra ID             | Cloud IAM                      |
+| SQL Database        | Amazon RDS | Azure SQL Database             | Cloud SQL                      |
+| Kubernetes          | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+
+## Service Comparison
+
+### Virtual Machine
+
+Amazon EC2, Azure Virtual Machines, and Google Compute Engine provide virtual computing resources that allow organizations to run applications and operating systems in the cloud. These services provide configurable computing resources that can be selected according to workload requirements.
+
+### Object Storage
+
+Amazon S3, Azure Blob Storage, and Google Cloud Storage are object storage services. They can be used to store files, backups, media, application data, and other unstructured information.
+
+### Identity Management
+
+AWS IAM, Microsoft Entra ID, and Google Cloud IAM provide identity and access management capabilities. They allow organizations to control which users, applications, or services can access cloud resources.
+
+### SQL Database
+
+Amazon RDS, Azure SQL Database, and Google Cloud SQL provide managed relational database capabilities. These services reduce the amount of database infrastructure administration that organizations need to perform themselves.
+
+### Kubernetes
+
+Amazon EKS, Azure Kubernetes Service (AKS), and Google Kubernetes Engine (GKE) are managed Kubernetes services. They help organizations deploy, operate, and scale containerized applications using Kubernetes.
