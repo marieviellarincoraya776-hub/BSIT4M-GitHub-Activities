@@ -75,3 +75,23 @@ AWS is recommended for the global e-commerce company because it provides extensi
 | Client B – University                | Microsoft Azure      | Strong integration with Microsoft technologies                   |
 | Client C – AI Research Company       | Google Cloud         | Strong AI, ML, data, and high-performance computing capabilities |
 | Client D – Global E-Commerce Company | AWS                  | Global infrastructure, high availability, and scalability        |
+
+---
+
+# Multi-Cloud Decision Matrix
+
+The decision matrix below summarizes which cloud provider may be appropriate for different business requirements. The recommendations are based on the technical requirements and characteristics of each workload.
+
+| Business Requirement    | Recommended Platform | Justification                                                                                                           |
+| ----------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Startup Company         | AWS                  | AWS offers a broad selection of scalable services that can support a startup as its application and user base grow.     |
+| Enterprise Organization | AWS                  | AWS provides extensive enterprise services, security features, databases, networking, and global infrastructure.        |
+| Microsoft Environment   | Microsoft Azure      | Azure is well suited to organizations already using Windows Server, Microsoft 365, and Microsoft identity technologies. |
+| AI / Machine Learning   | Google Cloud         | Google Cloud provides strong AI and machine learning capabilities together with computing, data, and ML services.       |
+| Kubernetes Deployment   | Google Cloud         | Google Kubernetes Engine (GKE) provides a managed Kubernetes platform for containerized applications.                   |
+| Global Web Application  | AWS                  | AWS provides global infrastructure and services that support highly available, scalable web applications.               |
+
+## Overall Recommendation
+
+There is no single cloud provider that is best for every organization. AWS is a strong choice for broad cloud requirements and global applications, Azure is particularly suitable for Microsoft-based environments, while Google Cloud is a strong option for AI, machine learning, data, and Kubernetes-focused workloads. The final decision should therefore be based on the client's specific technical and business requirements.
+
