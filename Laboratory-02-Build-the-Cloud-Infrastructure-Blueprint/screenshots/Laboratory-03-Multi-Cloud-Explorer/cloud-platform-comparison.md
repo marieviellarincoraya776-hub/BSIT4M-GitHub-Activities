@@ -63,3 +63,22 @@ Amazon RDS, Azure SQL Database, and Google Cloud SQL provide managed relational 
 ### Kubernetes
 
 Amazon EKS, Azure Kubernetes Service (AKS), and Google Kubernetes Engine (GKE) are managed Kubernetes services. They help organizations deploy, operate, and scale containerized applications using Kubernetes.
+
+---
+
+# Multi-Cloud Decision Matrix
+
+The following decision matrix matches common business requirements with the cloud platform that best fits each situation. The recommendations consider factors such as scalability, enterprise integration, artificial intelligence capabilities, Kubernetes support, and global infrastructure.
+
+| Business Requirement    | Recommended Platform | Justification                                                                                                                       |
+| ----------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Startup Company         | AWS                  | AWS provides a broad range of services that can support a startup from initial application deployment to future growth.             |
+| Enterprise Organization | AWS                  | AWS offers a wide selection of enterprise services, security capabilities, databases, networking, and global infrastructure.        |
+| Microsoft Environment   | Microsoft Azure      | Azure provides strong integration with Windows Server, Microsoft 365, Microsoft Entra ID, and other Microsoft technologies.         |
+| AI / Machine Learning   | Google Cloud         | Google Cloud provides strong AI and machine learning services, specialized computing resources, and data platforms.                 |
+| Kubernetes Deployment   | Google Cloud         | Google Kubernetes Engine (GKE) provides a managed Kubernetes environment for deploying and managing containerized applications.     |
+| Global Web Application  | AWS                  | AWS provides global infrastructure, multiple Availability Zones, load balancing, content delivery, and scalable computing services. |
+
+## Decision-Making Principle
+
+Cloud platform selection should be based on the organization's actual requirements rather than simply choosing the most popular provider. Factors such as existing technology, workload characteristics, scalability, security, geographic requirements, budget, and specialized services should be considered before making a cloud decision.
