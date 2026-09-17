@@ -1,7 +1,0 @@
-# Mission 4 Reflection: The Cloud-Native Engineer
-
-The boot time and setup process of a Docker container are remarkably faster than installing an operating system on a traditional Virtual Machine. While a VM requires booting an entire kernel, allocating virtual hardware, and configuring services over several minutes, a container can spin up in less than a second because it directly shares the host operating system's kernel. 
-
-Port mapping (`-p 8080:80`) is necessary when running a web server inside a container because containers operate within an isolated network sandbox. Mapping maps port 8080 on the host machine to port 80 inside the container, allowing external traffic and local browser requests to successfully reach the web server application running inside. When you execute the `docker rm` command, any ephemeral data written inside the container's writable layer (outside of mounted volumes) is permanently deleted along with the container instance.
-
-Containerization fundamentally changes how developers and IT operations teams work together by bridging the "it works on my machine" gap. With DevOps workflows, developers package code and dependencies into a single portable container image that runs identically across development, testing, and production environments, streamlining deployment pipelines. Finally, my GitHub portfolio continues to evolve into a comprehensive, professional repository of cloud computing skills, showcasing practical competencies from multi-cloud evaluations to automated container deployments.
