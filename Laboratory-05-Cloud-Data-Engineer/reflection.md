@@ -1,0 +1,11 @@
+# Mission Reflection
+
+Object storage is vastly better suited for storing millions of photos compared to a traditional block storage hard drive because of how data is indexed and scaled. Block storage organizes data into fixed-size volumes tied tightly to a specific file system, which degrades in performance and becomes difficult to manage at a massive, unstructured scale. Object storage, conversely, utilizes a flat address space where each photo is treated as a self-contained object paired with custom metadata and a unique key, allowing for infinite, seamless scalability and instantaneous retrieval over HTTP/HTTPS protocols.
+
+Using Docker made deploying the MinIO storage server remarkably efficient. Instead of manually installing complex binaries, configuring dependencies, and managing runtime paths on a raw Linux host, Docker encapsulated the entire MinIO application into an isolated, lightweight container. With a single command, network ports were mapped and environment variables injected, providing a reproducible environment that behaves identically regardless of the underlying infrastructure.
+
+In cloud storage architecture, a "bucket" acts as a logical container or folder used to group and organize objects. Much like a root-level directory, it provides a boundary for setting access control policies, lifecycle rules, and security configurations for the data stored within it.
+
+To ensure object storage data is never lost during physical server failures, large enterprise companies rely on massive data redundancy and distributed architecture. They typically utilize multi-AZ (Availability Zone) or cross-region replication, meaning data written to one server is automatically copied across multiple independent data centers and server racks. Additionally, they employ erasure coding to fragment data across multiple drives with parity checks, ensuring high durability even if multiple physical hardware components fail simultaneously.
+
+My confidence in navigating the Linux command line is growing substantially. At first, executing raw terminal commands and container flags felt intimidating, but repeatedly utilizing Docker for deployments, verifying container health via `docker ps`, and structuring files through the shell has made the process feel much more structured, logical, and intuitive.
